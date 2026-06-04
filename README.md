@@ -47,8 +47,7 @@ Getting all components to move:
   * some way to save these in the future???
   * only two that don't work rn are top \& low stom
 
-Discord for help:...
-https://discord.gg/AfScp5x8r5
+Discord for help: https://discord.gg/AfScp5x8r5
 
 Driver Issue Solved:
 
