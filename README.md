@@ -75,7 +75,9 @@ Scripts:
   * make sure you save your edits
 
 todo:
--> look at possible or premade scripts from the internet to use, test them
+* look at possible or premade scripts from the internet to use, test them
+* attempt custom call & response
+* attempt LLM communication w/ API key
 
 * current issues:
 none :3
