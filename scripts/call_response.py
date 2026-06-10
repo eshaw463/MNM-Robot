@@ -16,3 +16,10 @@
 # 7
 # 8
 # 9
+
+i01.ear.addCommand("wave your hand", "i01.rightArm", "wave")
+i01.ear.addCommand("self destruct", "python", "selfDestructRoutine")
+
+def selfDestructRoutine():
+    i01.mouth.speak("Initiating self destruction sequence. Just kidding!")
+    i01.head.lookAt(0, 10, 0) # Look up
