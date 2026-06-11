@@ -78,11 +78,19 @@ Scripts:
 
 gestures:
 - FOLLOW THIS GUIDE: https://github.com/CyberSyntek/i01-GesturesWithPython
-- need to add start scripts to python.yml
+  - make sure bob_config was activated when turning on robot, 
+  - make sure bob is loaded as bot in brain settings
+  - need to add start script(s) to python.yml
+
+LLM communication: 
+- make sure LLM is on AND enabled
+- make sure chat completion is selected
+- test call & resonse via bottom of box
+- if gemma4 is on, put gemma4 in the model name slot
+- attempt GPT soon :/
 
 todo:
 * create custom gestures
-* attempt LLM communication w/ API key or Ollama (view guides online)
 
 * current issues:
 none :3
