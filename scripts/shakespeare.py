@@ -1,26 +1,50 @@
 # Alas, poor Yorick
 def shakespeare():
-    i01.setHeadSpeed(80.0,80.0)
-    i01.moveHead(90,90)
-    i01.moveHand("left",130,180,180,180,180,90)
+    right = True
+    if right: 
+        i01.setHeadSpeed(80.0,80.0)
+        i01.moveHead(90,90)
+        i01.moveHand("right",130,180,180,180,180,90)
 
-    sleep(.5)
-    i01.moveArm("left",20,90,40,10)
-    sleep(1)
-    i01.moveArm("left",70,90,60,10)
-    i01.moveHand("left",40,40,40,40,40,0)
-    i01.setHeadSpeed(80.0,80.0)
-    i01.moveHead(60,107)
-    sleep(.5)
+        sleep(.5)
+        i01.moveArm("right",20,90,40,10)
+        sleep(1)
+        i01.moveArm("right",100,90,120,10) # ASJUST THIS!!!
+        i01.moveHand("right",70,70,70,70,70,0)
+        i01.setHeadSpeed(80.0,80.0)
+        i01.moveHead(60,107)
+        sleep(.5)
 
-    i01.moveHand("right",50,90,90,90,100,90)
-    sleep(.5)
-    i01.moveHand("right",50,90,90,90,100,90)
+        i01.moveHand("left",50,90,90,90,100,90)
+        sleep(.5)
+        i01.moveHand("left",50,90,90,90,100,90)
 
-    sleep(.5)
-    i01.moveHand("right",50,90,90,90,100,90)
-    sleep(.5)
-    i01.moveHand("right",50,90,90,90,100,90)
+        sleep(.5)
+        i01.moveHand("left",50,90,90,90,100,90)
+        sleep(.5)
+        i01.moveHand("left",50,90,90,90,100,90)
+    else:
+        i01.setHeadSpeed(80.0,80.0)
+        i01.moveHead(90,90)
+        i01.moveHand("left",130,180,180,180,180,90)
+
+        sleep(.5)
+        i01.moveArm("left",20,90,40,10)
+        sleep(1)
+        i01.moveArm("left",70,90,60,10) #ADJUST THESE TWO AS NEEDED
+        i01.moveHand("left",40,40,40,40,40,0)
+        i01.setHeadSpeed(80.0,80.0)
+        i01.moveHead(60,107)
+        sleep(.5)
+
+        i01.moveHand("right",50,90,90,90,100,90)
+        sleep(.5)
+        i01.moveHand("right",50,90,90,90,100,90)
+
+        sleep(.5)
+        i01.moveHand("right",50,90,90,90,100,90)
+        sleep(.5)
+        i01.moveHand("right",50,90,90,90,100,90)
 
     # BRING SKULL CLOSE TO HEAD
 
