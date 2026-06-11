@@ -12,14 +12,34 @@
 # 3
 # 4
 # 5
-# 6
-# 7
-# 8
-# 9
+# Self Destruct
+# Introduction
+# Knock Knock Joke
+# Shakespeare
 
-i01.ear.addCommand("wave your hand", "i01.rightArm", "wave")
-i01.ear.addCommand("self destruct", "python", "selfDestructRoutine")
+# introduction
+def who_are_you():
+    i01.speakBlocking("Hello, human! I am Bob, an InMoov robot from Made New Makerspace.")
+    sleep(0.25)
+    i01.speakBlocking("How are you today?")
+    return
 
+# self destruct
 def selfDestructRoutine():
-    i01.mouth.speak("Initiating self destruction sequence. Just kidding!")
+    # add some movement here
+    i01.speakBlocking("Initiating self destruction sequence.")
+    sleep(0.25)
+    i01.speakBlocking("5")
+    sleep(0.5)
+    i01.speakBlocking("4")
+    sleep(0.5)
+    i01.speakBlocking("3")
+    sleep(0.5)
+    i01.speakBlocking("2")
+    sleep(0.5)
+    i01.speakBlocking("1")
+    sleep(0.5)
+    i01.speakBlocking("Just kidding!")
+     
     i01.head.lookAt(0, 10, 0) # Look up
+    return

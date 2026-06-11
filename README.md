@@ -70,15 +70,18 @@ Scripts:
 
 * https://myrobotlab.org/service/Python
 * make sure EVERY component is turned on and ready!!!
-* execute a script from the python section
-* https://github.com/CyberSyntek/i01-GesturesWithPython
+* execute a script from the python section 
   - see gestures, custom folder, custom chatbot, & aiml
   - implement gestures tomorrow
 
   * make sure you save your edits
 
+gestures:
+- FOLLOW THIS GUIDE: https://github.com/CyberSyntek/i01-GesturesWithPython
+- need to add start scripts to python.yml
+
 todo:
-* attempt custom call & response
+* create custom gestures
 * attempt LLM communication w/ API key or Ollama (view guides online)
 
 * current issues:
